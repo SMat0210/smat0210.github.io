@@ -1,0 +1,136 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="text-teal-900 bg-gray-200">
+    <div class="grid md:grid-cols-5">
+        <div>
+            <nav class="md:col-span-1 bg-gray-200">
+                <div>
+                    <div class="flex justify-between items-centre">
+                        <h1 class="font-bold uppercase p-2 border-b hover:text-lg">
+                            <a href="#">Navigations</a>
+                        </h1>
+                    
+                        <div class="px-4 cursor-pointer md:hidden" id="burger">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <ul class="hidden md:block" id="menu">
+                    <li class="hover:bg-red-200 hover:font-bold">
+                        <a href="index.html" class="flex border-l-4 border-cyan-700">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="hover:bg-red-200 hover:font-bold">
+                        <a href="games.html">
+                            <span>
+                                PS5 Games 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="hover:bg-red-200 hover:font-bold">
+                        <a href="About.html">
+                            <span>About Developer</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="md:col-span-4 bg-cyan-200 mt-2 pb-10 border-teal-900 border-8 px-4">
+            <header>
+                <h2 class="text-stone-900 font-bold text-6xl border-b">
+                    Welcome
+                </h2>
+            </header>
+            <div class="text-xl mt-12 pb-2">
+            <p>
+                This is the <strong>awsome </strong>website, that contains the name of all the PS5 games that I recommend playing or are on my wishlist.
+            </p>
+            <p>
+                There are three webpages to this website. 
+            </p>
+            <p>
+                This site contains navigation bar for navigating through webpages.
+            </p>
+            <p>
+                If you are using a mobile please check
+                <strong>navigation icon</strong> to traverse through webpages.
+            </p>
+            </div>
+            <div>
+                <p>Now some random text</p>
+            </div>
+            <div class="text-rose-400">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum id saepe odit ipsam maiores, doloribus, officia officiis tempore recusandae accusantium? Praesentium fugit ipsa velit perspiciatis, nemo dolor dolorem eius.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum id saepe odit ipsam maiores, doloribus, officia officiis tempore recusandae accusantium? Praesentium fugit ipsa velit perspiciatis, nemo dolor dolorem eius.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum id saepe odit ipsam maiores, doloribus, officia officiis tempore recusandae accusantium? Praesentium fugit ipsa velit perspiciatis, nemo dolor dolorem eius.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum id saepe odit ipsam maiores, doloribus, officia officiis tempore recusandae accusantium? Praesentium fugit ipsa velit perspiciatis, nemo dolor dolorem eius.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum id saepe odit ipsam maiores, doloribus, officia officiis tempore recusandae accusantium? Praesentium fugit ipsa velit perspiciatis, nemo dolor dolorem eius.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum id saepe odit ipsam maiores, doloribus, officia officiis tempore recusandae accusantium? Praesentium fugit ipsa velit perspiciatis, nemo dolor dolorem eius.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum id saepe odit ipsam maiores, doloribus, officia officiis tempore recusandae accusantium? Praesentium fugit ipsa velit perspiciatis, nemo dolor dolorem eius.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti, culpa consectetur asperiores modi cupiditate, placeat dicta necessitatibus nihil facere velit aut, quibusdam rem nostrum corrupti maxime? Blanditiis, ipsa repellat.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
